@@ -56,3 +56,12 @@ console.log(getCategoryDiscount("gear"));
         }
         return null;
      }
+
+     function lineItemTotal(cartItem) {
+       if (cart.qty > 0) {
+       findProductByID 
+       return cart.qty * priceAfterCategoryDiscount 
+       } else {
+        return 0
+       }
+     }
