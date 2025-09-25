@@ -47,4 +47,12 @@ console.log(getCategoryDiscount("gear"));
         
     }
      console.log(priceAfterCategoryDiscount(products[0]));
-     
+
+
+     function findProductByID(id) {
+        for (let p of products) {
+            if (p.id === id)
+                return p
+        }
+        return null;
+     }
